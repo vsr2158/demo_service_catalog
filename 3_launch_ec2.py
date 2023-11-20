@@ -1,15 +1,10 @@
 import boto3
 import uuid
 
-#ProductId = input('ProductId : ')
-#provisionedProductName = input("provisionedProductName : ")
-#ProvisioningArtifactId = input("ProvisioningArtifactId : ")
-#PathId = input("PathId : ")
-
-ProductId = "prod-ugn2nhhddtgfs"
-provisionedProductName = str(uuid.uuid4())
-ProvisioningArtifactId = "pa-ve2gufn6hqovo"
-PathId = "lpv3-nfga5wpiukyn2"
+ProductId = input('ProductId : ')
+provisionedProductName = input("provisionedProductName : ")
+ProvisioningArtifactId = input("ProvisioningArtifactId : ")
+PathId = input("PathId : ")
 
 ProvisioningParameters= [
     {
