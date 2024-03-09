@@ -16,7 +16,7 @@ Parameters:
     - t2.micro
     - t3.nano
     - t3.micro
-    Default: t2.micro
+    Default: t2.nano
     Description: Bastion EC2 instance type.
     Type: String
 
